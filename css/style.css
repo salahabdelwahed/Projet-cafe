@@ -1,0 +1,140 @@
+/*Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+} 
+/* generale */
+html,body{
+    font-family: 'Open sans', sans-serif; 
+    color: #222;
+}
+h1,h2,h3{
+    margin-bottom: 20px;
+     
+}
+a{
+    color:#fff;
+    text-decoration: none;
+
+} 
+.separator{
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    background: #111;
+} 
+.p{
+    margin-bottom: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: 700px;
+    font-size: 14px;
+}
+.btn-premary{
+    background:white;
+    color:#222;
+}
+.btn-premary:hover {
+    background: #222;
+    color: white;
+}
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container{
+    max-width: 100px;
+    display: block; 
+    margin: auto;
+
+}
+/* header */
+.header{
+    background: #333;
+    overflow: auto;
+    line-height: 0.7em;
+}
+.header nav h1{ 
+    padding: 20px;
+    float: left; 
+    margin-bottom: 0px;
+}
+.header nav h1 a{ 
+   color: white;
+}
+.header nav ul{
+    float: right;
+    list-style: none
+}
+.header nav ul li {
+    float: right; 
+
+}
+.header nav ul li a {
+    color: white;
+    padding: 20px; 
+    display: block;
+}
+.header nav ul li a :hover{
+    background: #444;
+
+} 
+.active{
+    background: #444;
+} 
+/* vp */
+.vp{
+    height: 700px;
+    background: url(../images/cafe1.jpg) center center/cover ; 
+    text-align: center;
+    padding: 20px;
+}
+.vp-content{
+    max-width: 600px;
+    padding-top: 170px;
+    color: white;
+    display: block;
+    margin: auto;
+    
+}
+.vp-content h1 {
+    font-size: 3rem;
+
+}
+.vp-content p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.9em;
+}
+
+/* features */
+.features{
+    padding: 100px 0 100px 0 ;
+    overflow: auto;  
+    text-align: center;
+   
+}
+.feature{
+    float: left;
+    width: 50px;
+} 
+.person{
+    height: 500px;
+    background: url(..  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
